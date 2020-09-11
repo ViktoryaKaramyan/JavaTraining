@@ -13,15 +13,16 @@ public class WaterJugCheckAndAction {
         System.out.println("Input jug 2 volume: ");
         int jug2 = scanner.nextInt();
 
-
+        // count takes care of number of iterations
         int result = jug1 + jug2;
+
 
         int[] jug1Filled = new int[result];
         int[] jug2Filled = new int[result];
 
         int i = 0;
 
-
+        // initialzing jug1Filled and jug2Filled array
         jug1Filled[i] = jug1;
         jug2Filled[i] = 0;
         i++;
